@@ -82,13 +82,13 @@ const EmailTemplate = () => {
                   <p className="mt-4">
                     ---- <br /> Regards
                     <br />
-                    Abu Bin Ishtiyak
+                    Rudy Antara
                   </p>
                 </EmailBodyContent>
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright &copy; {(new Date().getFullYear())} nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -185,7 +185,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright &copy; {(new Date().getFullYear())} nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -307,7 +307,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright &copy; {(new Date().getFullYear())} nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -403,7 +403,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright &copy; {(new Date().getFullYear())} nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -508,7 +508,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright &copy; {(new Date().getFullYear())} nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -603,7 +603,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright &copy; {(new Date().getFullYear())} nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">

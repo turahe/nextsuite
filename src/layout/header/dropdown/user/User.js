@@ -33,7 +33,7 @@ const User = () => {
               <span>AB</span>
             </div>
             <div className="user-info">
-              <span className="lead-text">Abu Bin Ishtiyak</span>
+              <span className="lead-text">Rudy Antara</span>
               <span className="sub-text">info@nextsuite.id</span>
             </div>
           </div>

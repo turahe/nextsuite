@@ -484,7 +484,7 @@ const Avatar = () => {
                 <div className="user-card">
                   <UserAvatar text="AB" theme="purple" className="sm"></UserAvatar>
                   <div className="user-name">
-                    <span className="tb-lead">Abu Bin Ishtiyak</span>
+                    <span className="tb-lead">Rudy Antara</span>
                   </div>
                 </div>
               </Col>
@@ -516,7 +516,7 @@ const Avatar = () => {
     <div className="user-card">
       <UserAvatar text="AB" theme="purple" className="sm"></UserAvatar>
       <div className="user-name">
-        <span className="tb-lead">Abu Bin Ishtiyak</span>
+        <span className="tb-lead">Rudy Antara</span>
       </div>
     </div>
             `}

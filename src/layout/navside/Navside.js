@@ -139,7 +139,7 @@ const Navside = ({setCurrentMenuTab }) => {
                 <div className="user-card sm">
                   <UserAvatar text="AB" theme="primary" />
                   <div className="user-info">
-                    <span className="lead-text">Abu Bin Ishtiyak</span>
+                    <span className="lead-text">Rudy Antara</span>
                     <span className="sub-text">info@nextsuite.id</span>
                   </div>
                 </div>

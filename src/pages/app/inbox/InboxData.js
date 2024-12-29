@@ -1013,7 +1013,7 @@ export const colourOptions = [
 export const contacts = [
   {
     id: 1,
-    name: "Abu Bin Ishtiyak",
+    name: "Rudy Antara",
     img: User,
     theme: "primary",
     designation: "CEO of Softnio",

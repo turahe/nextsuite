@@ -2,7 +2,7 @@ export const invoiceData = [
   {
     id: 1,
     orderId: "746F5K2",
-    name: "Abu Bin Ishtiyak",
+    name: "Rudy Antara",
     email: "info@nextsuite.id",
     phone: "+811 847-4958",
     date: "23 Jan 2019, 10:45pm",
