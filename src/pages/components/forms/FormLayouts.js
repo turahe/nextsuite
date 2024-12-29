@@ -352,7 +352,7 @@ const FormLayoutsPage = ({ ...props }) => {
                         type="text"
                         id="site-name"
                         className="form-control"
-                        defaultValue="DashLite Admin Template"
+                        defaultValue="Nextsuite Admin Template"
                       />
                     </div>
                   </div>

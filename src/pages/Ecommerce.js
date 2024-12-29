@@ -31,7 +31,7 @@ const EcommerceDashboard = () => {
             <BlockHeadContent>
               <BlockTitle page>E-Commerce Panel</BlockTitle>
               <BlockDes className="text-soft">
-                <p>Welcome to DashLite Dashboard Template</p>
+                <p>Welcome to Nextsuite Dashboard Template</p>
               </BlockDes>
             </BlockHeadContent>
           </BlockBetween>

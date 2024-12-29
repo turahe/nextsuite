@@ -9,7 +9,7 @@ export const projectData = [
   {
     id: 1,
     avatarClass: "primary",
-    title: "Dashlite Development",
+    title: "Nextsuite Development",
     subtitle: "Softnio",
     desc: "Design and develop the DashLite template for Envato Marketplace",
     lead: "Abu Bin",
@@ -123,9 +123,9 @@ export const projectData = [
   {
     id: 6,
     avatarClass: "primary",
-    title: "Dashlite Development",
+    title: "Nextsuite Development",
     subtitle: "Softnio",
-    desc: "Design and develop the DashLite template for Envato Marketplace",
+    desc: "Design and develop the Nextsuite template for Envato Marketplace",
     tasks: "3",
     totalTask: "25",
     lead: "Milagros Betts",
@@ -347,9 +347,9 @@ export const projectData = [
   {
     id: 16,
     avatarClass: "primary",
-    title: "Dashlite Development",
+    title: "Nextsuite Development",
     subtitle: "Softnio",
-    desc: "Design and develop the DashLite template for Envato Marketplace",
+    desc: "Design and develop the Nextsuite template for Envato Marketplace",
     tasks: "3",
     totalTask: "25",
     lead: "Milagros Betts",

@@ -272,7 +272,7 @@ const EmailTemplate = () => {
                   <p>
                     Welcome! <br /> You are receiving this email because you have registered on our site.
                   </p>
-                  <p>Click the link below to active your DashLite account.</p>
+                  <p>Click the link below to active your Nextsuite account.</p>
                   <p className="mb-4">This link will expire in 15 minutes and can only be used once.</p>
                   <a
                     href="#verify"

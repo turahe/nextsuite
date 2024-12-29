@@ -17,8 +17,8 @@ export const columnData = {
     },
     "task-2": {
       id: "task-2",
-      title: "Dashlite React Version",
-      desc: "Implement new UI design in react version @dashlite template as soon as possible.",
+      title: "Nextsuite React Version",
+      desc: "Implement new UI design in react version @Nextsuite template as soon as possible.",
       meta: {
         users: [{ value: "Cooper Jones", label: "Cooper Jones", theme: "blue" }],
         tags: [
@@ -32,14 +32,14 @@ export const columnData = {
       },
     },
     "task-3": {
-      id: "task-3",
-      title: "Dashlite Design Kit Update",
-      desc: "Update the new UI design for @dashlite template with based on feedback.",
+      id: "task-3",Nextsuite
+      title: "Nextsuite Design Kit Update",
+      desc: "Update the new UI design for @Nextsuite template with based on feedback.",
       board: "In Progress",
       meta: {
         users: [{ value: "Ashraf Raneem", label: "Ashraf Raneem", theme: "primary" }],
         tags: [
-          { value: "Dashlite", label: "Dashlite", theme: "info" },
+          { value: "Nextsuite", label: "Nextsuite", theme: "info" },
           { value: "UI Design", label: "UI Design", theme: "warning" },
         ],
         due: "2",

@@ -116,7 +116,7 @@ const AccordionsPage = () => {
           >
             <h6 className="title">
               What is the relationship between Dashlite and payment?
-            </h6>
+            </h6>Nextsuite
             <span className="accordion-icon"></span>
           </div>
           <Collapse

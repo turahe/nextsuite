@@ -60,7 +60,7 @@ const Accordion = ({ className, variation }) => {
       </div>
       <div className="accordion-item">
         <div className={[`accordion-head${isOpen !== "3" ? " collapsed" : ""}`]} onClick={() => toggleCollapse("3")}>
-          <h6 className="title">What is the relationship between Dashlite and payment?</h6>
+          <h6 className="title">What is the relationship between Nextsuite and payment?</h6>
           <span className="accordion-icon"></span>
         </div>
         <Collapse className="accordion-body" isOpen={isOpen === "3" ? true : false}>

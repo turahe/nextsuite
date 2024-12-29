@@ -1414,7 +1414,7 @@ const RatingWidgets = () => {
                   </div>
                   <div className="card-inner">
                     <p className="text-soft">
-                      I've been using Dashlite for months now and with every update, update it's just becoming more and
+                      I've been using Nextsuite for months now and with every update, update it's just becoming more and
                       more better it's just becoming better. Thank you for such a great design touch. Further I
                       definitely cooperate with your product . Highly appriciate it. Really love it
                     </p>
