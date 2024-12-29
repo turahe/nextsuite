@@ -3,11 +3,11 @@ export const columnData = {
     "task-1": {
       id: "task-1",
       title: "Implement Design into template",
-      desc: "Start implementing new design in coding @dashlite",
+      desc: "Start implementing new design in coding @Nextsuite template.",
       meta: {
         users: [{ value: "Sara Dervashi", label: "Sara Dervashi", theme: "light" }],
         tags: [
-          { value: "Dashlite", label: "Dashlite", theme: "info" },
+          { value: "Nextsuite", label: "Nextsuite", theme: "info" },
           { value: "HTML", label: "HTML", theme: "danger" },
         ],
         date: "15 Dec 2020",
@@ -22,7 +22,7 @@ export const columnData = {
       meta: {
         users: [{ value: "Cooper Jones", label: "Cooper Jones", theme: "blue" }],
         tags: [
-          { value: "Dashlite", label: "Dashlite", theme: "info" },
+          { value: "Nextsuite", label: "Nextsuite", theme: "info" },
           { value: "React", label: "React", theme: "dark" },
         ],
         date: "15 Dec 2020",
@@ -32,7 +32,7 @@ export const columnData = {
       },
     },
     "task-3": {
-      id: "task-3",Nextsuite
+      id: "task-3",
       title: "Nextsuite Design Kit Update",
       desc: "Update the new UI design for @Nextsuite template with based on feedback.",
       board: "In Progress",
@@ -191,8 +191,8 @@ export const columnData = {
 
 export const tagSet = [
   {
-    value: "Dashlite",
-    label: "Dashlite",
+    value: "Nextsuite",
+    label: "Nextsuite",
     theme: "info",
   },
   {
