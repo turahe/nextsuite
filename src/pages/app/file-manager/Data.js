@@ -240,7 +240,7 @@ export const files = [
   },
   {
     id: 'folder004',
-    name: 'DashLite Resource',
+    name: 'nextsuite Resource',
     ext: 'zip',
     time: '02:07 PM',
     date: '03 Mar',
@@ -276,7 +276,7 @@ export const files = [
   },
   {
     id: 'file002',
-    name: 'dashlite-1.2.zip',
+    name: 'nextsuite-1.2.zip',
     ext: 'zip',
     icon: 'fileZip',
     time: '02:07 PM',
@@ -341,7 +341,7 @@ export const files = [
   },
   {
     id: 'file007',
-    name: 'DashLite_Crypto_v1.psd',
+    name: 'nextsuite.psd',
     ext: 'psd',
     icon: 'fileMedia',
     time: '02:07 PM',

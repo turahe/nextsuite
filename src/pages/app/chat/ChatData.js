@@ -12,7 +12,7 @@ export const chatUserData = [
   },
   {
     id: 2,
-    user: "Abu Bin Ishtiak",
+    user: "Rudy Antara",
     active: true,
     theme: "blue",
   },
@@ -129,7 +129,7 @@ export const chatData = [
   },
   {
     id: 2,
-    name: "Abu Bin Ishtiak",
+    name: "Rudy Antara",
     nickname: "",
     theme: "blue",
     chatTheme: "primary",
@@ -251,7 +251,7 @@ export const chatData = [
     delivered: "sent",
     user: [
       {
-        name: "Abu Bin Ishtiak",
+        name: "Rudy Antara",
         theme: "primary",
       },
       {
@@ -359,7 +359,7 @@ export const chatData = [
     user: [
       {
         id: 1,
-        name: "Abu Bin Ishtiak",
+        name: "Rudy Antara",
         theme: "primary",
         role: "Admin",
       },
@@ -391,7 +391,7 @@ export const chatData = [
       },
       {
         id: "chat_3",
-        user: { name: "Abu Bin Ishtiak", theme: "primary" },
+        user: { name: "Rudy Antara", theme: "primary" },
         chat: ["This is really cool.", "It’s perfect. Thanks for letting me know."],
         date: "29 Apr, 2020 4:28 PM",
       },
@@ -433,7 +433,7 @@ export const chatData = [
   },
   {
     id: 14,
-    name: "Dashlite Customers",
+    name: "nextsuite Customers",
     group: true,
     unread: false,
     archive: false,
@@ -561,7 +561,7 @@ export const chatData = [
   },
   {
     id: 17,
-    name: "dashlite-project",
+    name: "nextsuite-project",
     group: true,
     chatTheme: "primary",
     theme: "pink",
@@ -574,7 +574,7 @@ export const chatData = [
     user: [
       {
         id: 1,
-        name: "Abu Bin Ishtiak",
+        name: "Rudy Antara",
         theme: "primary",
         role: "Admin",
       },
@@ -618,7 +618,7 @@ export const chatData = [
       },
       {
         id: "chat_3",
-        user: { name: "Abu Bin Ishtiak", theme: "primary" },
+        user: { name: "Rudy Antara", theme: "primary" },
         chat: ["This is really cool.", "It’s perfect. Thanks for letting me know."],
         date: "29 Apr, 2020 4:28 PM",
       },

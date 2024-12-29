@@ -249,7 +249,7 @@ const CardWidgets = () => {
                         <div className="status dot dot-lg dot-success"></div>
                       </UserAvatar>
                       <div className="user-info">
-                        <h6>Abu Bin Ishtiak</h6>
+                        <h6>Rudy Antara</h6>
                         <span className="sub-text">@ishtyak</span>
                       </div>
                     </div>
@@ -330,7 +330,7 @@ const CardWidgets = () => {
             <div className="status dot dot-lg dot-success"></div>
         </UserAvatar>
         <div className="user-info">
-            <h6>Abu Bin Ishtiak</h6>
+            <h6>Rudy Antara</h6>
             <span className="sub-text">@ishtyak</span>
         </div>
     </div>
@@ -420,7 +420,7 @@ const CardWidgets = () => {
                         <div className="status dot dot-lg dot-success"></div>
                       </UserAvatar>
                       <div className="user-info">
-                        <h6>Abu Bin Ishtiak</h6>
+                        <h6>Rudy Antara</h6>
                       </div>
                     </div>
                     <div className="team-details">
@@ -437,7 +437,7 @@ const CardWidgets = () => {
                       </li>
                       <li>
                         <span>Email</span>
-                        <span>info@softnio.com</span>
+                        <span>info@nextsuite.id</span>
                       </li>
                     </ul>
                     <div className="team-view">
@@ -495,7 +495,7 @@ const CardWidgets = () => {
         <div className="status dot dot-lg dot-success"></div>
       </UserAvatar>
       <div className="user-info">
-        <h6>Abu Bin Ishtiak</h6>
+        <h6>Rudy Antara</h6>
       </div>
     </div>
     <div className="team-details">
@@ -512,7 +512,7 @@ const CardWidgets = () => {
       </li>
       <li>
         <span>Email</span>
-        <span>info@softnio.com</span>
+        <span>info@nextsuite.id</span>
       </li>
     </ul>
     <div className="team-view">
@@ -951,9 +951,9 @@ const InvestOverview = () => {
                       }}
                       className="project-title"
                     >
-                      <UserAvatar className="sq" theme="primary" text={findUpper("Dashlite Dev")} />
+                      <UserAvatar className="sq" theme="primary" text={findUpper("nextsuite Dev")} />
                       <div className="project-info">
-                        <h6 className="title">Dashlite Development</h6>
+                        <h6 className="title">nextsuite Development</h6>
                         <span className="sub-text">Softnio</span>
                       </div>
                     </a>
@@ -992,7 +992,7 @@ const InvestOverview = () => {
                     </UncontrolledDropdown>
                   </div>
                   <div className="project-details">
-                    Design and develop the DashLite template for Envato Marketplace.
+                    Design and develop the nextsuite template for Envato Marketplace.
                   </div>
                   <div className="project-progress">
                     <div className="project-progress-details">
@@ -1035,7 +1035,7 @@ const InvestOverview = () => {
       }}
       className="project-title"
     >
-      <UserAvatar className="sq" theme="primary" text={findUpper("Dashlite Dev")} />
+      <UserAvatar className="sq" theme="primary" text={findUpper("nextsuite Dev")} />
       <div className="project-info">
         <h6 className="title">Nextsuite Development</h6>
         <span className="sub-text">Softnio</span>

@@ -209,7 +209,7 @@ const FormElementsPage = () => {
                   <input
                     className="form-control"
                     disabled
-                    defaultValue="info@softnio.com"
+                    defaultValue="info@nextsuite.id"
                     placeholder="Input placeholder"
                   />
                 </div>

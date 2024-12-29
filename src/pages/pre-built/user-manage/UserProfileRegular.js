@@ -28,7 +28,7 @@ const UserProfileRegularPage = () => {
   const [modalTab, setModalTab] = useState("1");
   const [userInfo, setUserInfo] = useState(userData[0]);
   const [formData, setFormData] = useState({
-    name: "Abu Bin Ishtiak",
+    name: "Rudy Antara",
     displayName: "Ishtiak",
     phone: "818474958",
     dob: "1980-08-10",
@@ -138,7 +138,7 @@ const UserProfileRegularPage = () => {
                   <div className="data-item">
                     <div className="data-col">
                       <span className="data-label">Email</span>
-                      <span className="data-value">info@softnio.com</span>
+                      <span className="data-value">info@nextsuite.id</span>
                     </div>
                     <div className="data-col data-col-end">
                       <span className="data-more disable">

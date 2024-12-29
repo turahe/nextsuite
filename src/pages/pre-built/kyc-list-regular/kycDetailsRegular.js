@@ -195,7 +195,7 @@ const KycDetailsRegular = () => {
                     <li className="data-item">
                       <div className="data-col">
                         <div className="data-label">Email Address</div>
-                        <div className="data-value">info@softnio.com</div>
+                        <div className="data-value">info@nextsuite.id</div>
                       </div>
                     </li>
                     <li className="data-item">

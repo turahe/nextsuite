@@ -368,7 +368,7 @@ const FormLayoutsPage = ({ ...props }) => {
                 <Col lg="7">
                   <div className="form-group">
                     <div className="form-control-wrap">
-                      <input type="text" id="site-email" className="form-control" defaultValue="info@softnio.com" />
+                      <input type="text" id="site-email" className="form-control" defaultValue="info@nextsuite.id" />
                     </div>
                   </div>
                 </Col>
@@ -387,7 +387,7 @@ const FormLayoutsPage = ({ ...props }) => {
                         type="text"
                         id="site-copyright"
                         className="form-control"
-                        defaultValue="&copy; 2019, DashLite. All Rights Reserved."
+                        defaultValue="&copy; 2019, nextsuite. All Rights Reserved."
                       />
                     </div>
                   </div>

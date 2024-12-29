@@ -50,7 +50,7 @@ const AccordionsPage = () => {
             className= "accordion-head"
             onClick={() => setIsOpen("1")}
           >
-            <h6 className="title">What is Dashlite?</h6>
+            <h6 className="title">What is nextsuite?</h6>
             <span className="accordion-icon"></span>
           </div>
           <Collapse
@@ -115,7 +115,7 @@ const AccordionsPage = () => {
             onClick={() => setIsOpen("3")}
           >
             <h6 className="title">
-              What is the relationship between Dashlite and payment?
+              What is the relationship between nextsuite and payment?
             </h6>Nextsuite
             <span className="accordion-icon"></span>
           </div>
@@ -147,7 +147,7 @@ const AccordionsPage = () => {
             className="accordion-head collapsed"
             onClick={() => setIsOpen("4")}
           >
-            <h6 className="title">What are the benefits of using Dashlite?</h6>
+            <h6 className="title">What are the benefits of using nextsuite?</h6>
             <span className="accordion-icon"></span>
           </div>
           <Collapse
@@ -202,7 +202,7 @@ const AccordionsPage = () => {
             className= "accordion-head"
             onClick={() => setIsOpen("1")}
           >
-            <h6 className="title">What is Dashlite?</h6>
+            <h6 className="title">What is nextsuite?</h6>
             <span className="accordion-icon"></span>
           </div>
           <Collapse
@@ -267,7 +267,7 @@ const AccordionsPage = () => {
             onClick={() => setIsOpen("3")}
           >
             <h6 className="title">
-              What is the relationship between Dashlite and payment?
+              What is the relationship between nextsuite and payment?
             </h6>
             <span className="accordion-icon"></span>
           </div>
@@ -299,7 +299,7 @@ const AccordionsPage = () => {
             className="accordion-head collapsed"
             onClick={() => setIsOpen("4")}
           >
-            <h6 className="title">What are the benefits of using Dashlite?</h6>
+            <h6 className="title">What are the benefits of using nextsuite?</h6>
             <span className="accordion-icon"></span>
           </div>
           <Collapse
@@ -352,7 +352,7 @@ const AccordionsPage = () => {
             className= "accordion-head"
             onClick={() => setIsOpen("1")}
           >
-            <h6 className="title">What is Dashlite?</h6>
+            <h6 className="title">What is nextsuite?</h6>
             <span className="accordion-icon"></span>
           </div>
           <Collapse
@@ -417,7 +417,7 @@ const AccordionsPage = () => {
             onClick={() => setIsOpen("3")}
           >
             <h6 className="title">
-              What is the relationship between Dashlite and payment?
+              What is the relationship between nextsuite and payment?
             </h6>
             <span className="accordion-icon"></span>
           </div>
@@ -449,7 +449,7 @@ const AccordionsPage = () => {
             className="accordion-head collapsed"
             onClick={() => setIsOpen("4")}
           >
-            <h6 className="title">What are the benefits of using Dashlite?</h6>
+            <h6 className="title">What are the benefits of using nextsuite?</h6>
             <span className="accordion-icon"></span>
           </div>
           <Collapse

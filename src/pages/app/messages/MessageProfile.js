@@ -62,7 +62,7 @@ const MessageProfileSidebar = ({ sidebar, profile }) => {
               <ul className="user-contacts">
                 <li>
                   <Icon name="mail"></Icon>
-                  <span>info@softnio.com</span>
+                  <span>info@nextsuite.id</span>
                 </li>
                 <li>
                   <Icon name="call"></Icon>
@@ -87,7 +87,7 @@ const MessageProfileSidebar = ({ sidebar, profile }) => {
                 </Col>
                 <Col xs={6}>
                   <span className="sub-text">Requested:</span>
-                  <span>Abu Bin Ishtiak</span>
+                  <span>Rudy Antara</span>
                 </Col>
                 <Col xs={6}>
                   <span className="sub-text">Status:</span>

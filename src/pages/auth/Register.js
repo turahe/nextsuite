@@ -43,7 +43,7 @@ const Register = () => {
             <BlockContent>
               <BlockTitle tag="h4">Register</BlockTitle>
               <BlockDes>
-                <p>Create New Dashlite Account</p>
+                <p>Create New nextsuite Account</p>
               </BlockDes>
             </BlockContent>
           </BlockHead>

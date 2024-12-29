@@ -58,7 +58,7 @@ const RatingWidgets = () => {
                         <div className="status dot dot-lg dot-success"></div>
                       </UserAvatar>
                       <div className="user-info">
-                        <h6>Abu Bin Ishtiak</h6>
+                        <h6>Rudy Antara</h6>
                         <span className="sub-text">@ishtyak</span>
                       </div>
                       <ul className="rating mt-1">
@@ -1087,7 +1087,7 @@ const RatingWidgets = () => {
                           <textarea
                             className="form-control no-resize"
                             id="review"
-                            defaultValue="I've been using Dashlite for months now and with every update, it's just becoming better.
+                            defaultValue="I've been using nextsuite for months now and with every update, it's just becoming better.
                             Thank you for such a great design touch. Really love it"
                           ></textarea>
                         </div>

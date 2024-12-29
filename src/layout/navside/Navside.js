@@ -140,7 +140,7 @@ const Navside = ({setCurrentMenuTab }) => {
                   <UserAvatar text="AB" theme="primary" />
                   <div className="user-info">
                     <span className="lead-text">Abu Bin Ishtiyak</span>
-                    <span className="sub-text">info@softnio.com</span>
+                    <span className="sub-text">info@nextsuite.id</span>
                   </div>
                 </div>
               </div>

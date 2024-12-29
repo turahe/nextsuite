@@ -12,7 +12,7 @@ export const userData = [
     dob: "10 Aug, 1980",
     role: "Customer",
     checked: false,
-    email: "info@softnio.com",
+    email: "info@nextsuite.id",
     balance: "35040.34",
     phone: "818474958",
     emailStatus: "success",

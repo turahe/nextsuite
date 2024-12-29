@@ -47,7 +47,7 @@ const KnobPreview = () => {
               <BlockTitle tag="h4">Knob Full</BlockTitle>
               <BlockDes>
                 <p>
-                  Full Knobs can be made using the built in react dashlite component of <code>Knob</code>.
+                  Full Knobs can be made using the built in react nextsuite component of <code>Knob</code>.
                 </p>
               </BlockDes>
             </BlockHeadContent>
@@ -76,7 +76,7 @@ const KnobPreview = () => {
               <BlockTitle tag="h4">Knob half</BlockTitle>
               <BlockDes>
                 <p>
-                  Half Knobs can be made using the built in react dashlite component of <code>Knob</code>. Just pass{" "}
+                  Half Knobs can be made using the built in react nextsuite component of <code>Knob</code>. Just pass{" "}
                   <code>type="half"</code> to the component.
                 </p>
               </BlockDes>

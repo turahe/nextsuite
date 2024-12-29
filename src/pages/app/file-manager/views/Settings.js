@@ -26,9 +26,9 @@ const Settings = () => {
 
   const [modal, setModal] = useState(false);
   const [formData, setFormData] = useState({
-    name: "Abu Bin Ishtiak",
+    name: "Rudy Antara",
     displayName: "Ishtiak",
-    email: "info@softnio.com",
+    email: "info@nextsuite.id",
     phone: "",
     dob: "1980-08-10",
     language: data.languageOptions[0].value,

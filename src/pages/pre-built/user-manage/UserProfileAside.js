@@ -5,7 +5,7 @@ import { findUpper } from "../../../utils/Utils";
 import {  DropdownItem, UncontrolledDropdown, DropdownMenu, DropdownToggle } from "reactstrap";
 
 const UserProfileAside = ({updateSm,sm}) => {
-  const [profileName, setProfileName] = useState("Abu Bin Ishtiak");
+  const [profileName, setProfileName] = useState("Rudy Antara");
   
   useEffect(() => {
     sm ? document.body.classList.add("toggle-shown") : document.body.classList.remove("toggle-shown");
@@ -18,7 +18,7 @@ const UserProfileAside = ({updateSm,sm}) => {
         <UserAvatar text={findUpper(profileName)} theme="primary" />
         <div className="user-info">
             <span className="lead-text">{profileName}</span>
-            <span className="sub-text">info@softnio.com</span>
+            <span className="sub-text">info@nextsuite.id</span>
         </div>
         <div className="user-action">
             <UncontrolledDropdown>

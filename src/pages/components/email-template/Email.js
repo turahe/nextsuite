@@ -38,7 +38,7 @@ const EmailTemplate = () => {
             </BlockTitle>
             <BlockDes>
               <p className="lead">
-                In DashLite, We included 10 clean and minimalist notification email templates that is ready to use for
+                In nextsuite, We included 10 clean and minimalist notification email templates that is ready to use for
                 your application to send emails.{" "}
                 <strong className="text-primary">Stand-Alone html files found in packages</strong>.
               </p>
@@ -88,7 +88,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -185,7 +185,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -294,20 +294,20 @@ const EmailTemplate = () => {
                     }}
                     className="link-block"
                   >
-                    https://dashlite.com/account?login_token=dacb711d08a0ee7bda83ce1660918c31e8b43c30
+                    https://nextsuite.com/account?login_token=dacb711d08a0ee7bda83ce1660918c31e8b43c30
                   </a>
                 </EmailBodyContent>
                 <EmailBodyContent className="px-3 px-sm-5 pt-4 pb-3 pb-sm-5">
                   <p>If you did not make this request, please contact us or ignore this message.</p>
                   <p className="email-note">
                     This is an automatically generated email please do not reply to this email. If you face any issues,
-                    please contact us at help@dashlite.com
+                    please contact us at help@nextsuite.id
                   </p>
                 </EmailBodyContent>
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -390,7 +390,7 @@ const EmailTemplate = () => {
                   <p>
                     <strong>Hi Ishtiyak,</strong>
                   </p>
-                  <p>We are pleased to have you as a member of Dashlite Family.</p>
+                  <p>We are pleased to have you as a member of nextsuite Family.</p>
                   <p>
                     Your account is now verified and you can purchase tokens for the ICO. Also you can submit your
                     documents for the KYC from my Account page.
@@ -403,7 +403,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -502,13 +502,13 @@ const EmailTemplate = () => {
                   <p>If you did not make this request, please contact us or ignore this message.</p>
                   <p className="email-note">
                     This is an automatically generated email please do not reply to this email. If you face any issues,
-                    please contact us at help@dashlite.com
+                    please contact us at help@nextsuite.id
                   </p>
                 </EmailBodyContent>
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -597,13 +597,13 @@ const EmailTemplate = () => {
                 <EmailBodyContent className="px-3 px-sm-5 pt-4 pb-3 pb-sm-5">
                   <p className="email-note">
                     This is an automatically generated email please do not reply to this email. If you face any issues,
-                    please contact us at help@dashlite.com
+                    please contact us at help@nextsuite.id
                   </p>
                 </EmailBodyContent>
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -695,7 +695,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -791,7 +791,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -884,7 +884,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">
@@ -1033,7 +1033,7 @@ const EmailTemplate = () => {
               </EmailBody>
               <EmailFooter>
                 <p className="email-copyright-text">
-                  Copyright © 2020 DashLite. All rights reserved. <br /> Template Made By{" "}
+                  Copyright © 2020 nextsuite. All rights reserved. <br /> Template Made By{" "}
                   <a href="https://themeforest.net/user/softnio/portfolio">Softnio</a>.
                 </p>
                 <ul className="email-social">

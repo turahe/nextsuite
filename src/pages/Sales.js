@@ -39,7 +39,7 @@ const Sales = () => {
                 Sales Overview
               </BlockTitle>
               <BlockDes className="text-soft">
-                <p>Welcome to DashLite Dashboard Template</p>
+                <p>Welcome to nextsuite Dashboard Template</p>
               </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>

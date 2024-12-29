@@ -11,7 +11,7 @@ export const projectData = [
     avatarClass: "primary",
     title: "Nextsuite Development",
     subtitle: "Softnio",
-    desc: "Design and develop the DashLite template for Envato Marketplace",
+    desc: "Design and develop the nextsuite template for Envato Marketplace",
     lead: "Abu Bin",
     tasks: "3",
     totalTask: "93",

@@ -39,7 +39,7 @@ const Homepage = () => {
               <BlockTitle page tag="h3">
                 Dashboard
               </BlockTitle>
-              <BlockDes className="text-soft"><p>Welcome to DashLite Dashboard Template.</p></BlockDes>
+              <BlockDes className="text-soft"><p>Welcome to nextsuite Dashboard Template.</p></BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
               <div className="toggle-wrap nk-block-tools-toggle">
