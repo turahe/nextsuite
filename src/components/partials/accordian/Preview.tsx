@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Collapse } from "reactstrap";
 
-const Accordion = ({ className, variation }) => {
-  const [isOpen, setIsOpen] = useState("1");
+const Accordion: React.FC = ({ className, variation }) => {
+  const [isOpen, setIsOpen] = useState<any>("1");
 
-  const toggleCollapse = (param) => {
+  const toggleCollapse: React.FC = (param) => {
     if (param === isOpen) {
       setIsOpen("0");
     } else {

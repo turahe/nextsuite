@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Icon } from "../../Component";
 
-const OutlinedInput = ({ label, size, id, icon }) => {
-  const [focus, setFocus] = useState(false);
+const OutlinedInput: React.FC = ({ label, size, id, icon }) => {
+  const [focus, setFocus] = useState<boolean>(false);
   return (
     <div className={`form-control-wrap ${focus ? "focused" : ""}`}>
       {icon && (

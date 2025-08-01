@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import React from "react";
 
-const Icon = ({ name, id, className, style, ...props }) => {
+const Icon: React.FC = ({ name, id, className, style, ...props }) => {
   const iconClass = classNames({
     [`${className}`]: className,
     icon: true,

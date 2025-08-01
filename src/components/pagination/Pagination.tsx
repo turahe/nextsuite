@@ -2,14 +2,14 @@ import React from "react";
 import { Pagination, PaginationLink, PaginationItem } from "reactstrap";
 import Icon from "../icon/Icon";
 
-const PaginationComponent = ({ itemPerPage, totalItems, paginate, currentPage }) => {
+const PaginationComponent: React.FC = ({ itemPerPage, totalItems, paginate, currentPage }) => {
   const pageNumbers = [];
 
   for (let i = 1; i <= Math.ceil(totalItems / itemPerPage); i++) {
     pageNumbers.push(i);
   }
 
-  const paginationNumber = () => {
+  const paginationNumber: React.FC = () => {
     if(pageNumbers.length <= 5){
       return pageNumbers;
     }else if(pageNumbers.length >= 5 && currentPage <= 4){
@@ -23,19 +23,19 @@ const PaginationComponent = ({ itemPerPage, totalItems, paginate, currentPage })
   
   let paginationItms = paginationNumber();
 
-  const firstPage = () => {
+  const firstPage: React.FC = () => {
     paginate(1);
   };
 
-  const lastPage = () => {
+  const lastPage: React.FC = () => {
     paginate(pageNumbers[pageNumbers.length - 1]);
   };
 
-  const nextPage = () => {
+  const nextPage: React.FC = () => {
     paginate(currentPage + 1);
   };
 
-  const prevPage = () => {
+  const prevPage: React.FC = () => {
     paginate(currentPage - 1);
   };
 

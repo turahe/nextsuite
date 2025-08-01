@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { AudienceLineChart } from "../../charts/analytic/DefaultCharts";
 import { Icon } from "../../../Component";
 
-const AudienceOverview = () => {
-  const [auOverview, setAuOverview] = useState("month-1");
+const AudienceOverview: React.FC = () => {
+  const [auOverview, setAuOverview] = useState<any>("month-1");
   return (
     <React.Fragment>
       <div className="card-title-group pb-3 g-2">

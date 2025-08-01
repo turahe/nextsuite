@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Icon from "../icon/Icon";
 import { Pagination, PaginationLink, PaginationItem, Row, Col } from "reactstrap";
 
-const DataTablePagination = ({
+const DataTablePagination: React.FC = ({
   itemPerPage,
   totalItems,
   paginate,
@@ -17,7 +17,7 @@ const DataTablePagination = ({
     pageNumbers.push(i);
   }
 
-  const paginationNumber = () => {
+  const paginationNumber: React.FC = () => {
     if(pageNumbers.length <= 5){
       return pageNumbers;
     }else if(pageNumbers.length >= 5 && currentPage <= 4){
@@ -31,19 +31,19 @@ const DataTablePagination = ({
   
   let paginationItms = paginationNumber();
 
-  const firstPage = () => {
+  const firstPage: React.FC = () => {
     paginate(1);
   };
 
-  const lastPage = () => {
+  const lastPage: React.FC = () => {
     paginate(pageNumbers[pageNumbers.length - 1]);
   };
 
-  const nextPage = () => {
+  const nextPage: React.FC = () => {
     paginate(currentPage + 1);
   };
 
-  const prevPage = () => {
+  const prevPage: React.FC = () => {
     paginate(currentPage - 1);
   };
 

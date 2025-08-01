@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Icon from "../icon/Icon";
 import classNames from "classnames";
 
-export const LinkItem = ({ ...props }) => {
+export const LinkItem: React.FC = ({ ...props }) => {
   return (
     <li>
       {props.tag !== "a" ? (
@@ -19,7 +19,7 @@ export const LinkItem = ({ ...props }) => {
   );
 };
 
-export const LinkList = ({ ...props }) => {
+export const LinkList: React.FC = ({ ...props }) => {
   const listClasses = classNames({
     "link-list": !props.opt,
     "link-list-opt": props.opt,

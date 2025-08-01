@@ -21,10 +21,10 @@ import {
   Row,
 } from "../components/Component";
 
-const EcommerceDashboard = () => {
+const EcommerceDashboard: React.FC = () => {
   return (
     <React.Fragment>
-      <Head title="Ecommerce Dashboard"></Head>
+      <Head title="Ecommerce Dashboard" />
       <Content>
         <BlockHead size="sm">
           <BlockBetween>
@@ -56,19 +56,23 @@ const EcommerceDashboard = () => {
               </Row>
             </Col>
             <Col xxl="8">
-              <RecentOrders />
-            </Col>
-            <Col xxl="4" md="6">
-              <TopProducts />
-            </Col>
-            <Col xxl="3" md="6">
               <StoreStatistics />
             </Col>
-            <Col xxl="5" lg="6">
-              <TrafficSources />
+            <Col xxl="4">
+              <Row className="g-gs">
+                <Col xxl="12" md="6">
+                  <StoreVisitors />
+                </Col>
+                <Col xxl="12" md="6">
+                  <TrafficSources />
+                </Col>
+              </Row>
             </Col>
-            <Col xxl="4" lg="6">
-              <StoreVisitors />
+            <Col xxl="8">
+              <RecentOrders />
+            </Col>
+            <Col xxl="4">
+              <TopProducts />
             </Col>
           </Row>
         </Block>

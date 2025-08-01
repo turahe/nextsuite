@@ -3,9 +3,9 @@ import { pagePerUserData, pagePerUserDataSet2, pagePerUserDataSet3 } from "../..
 import { DataTableRow, DataTableHead, DataTableItem } from "../../../table/DataTable";
 import { DropdownToggle, DropdownMenu, UncontrolledDropdown, DropdownItem } from "reactstrap";
 
-const PageViewer = () => {
-  const [pageViewer, setPageViewer] = useState("30");
-  const [data, setData] = useState(pagePerUserData);
+const PageViewer: React.FC = () => {
+  const [pageViewer, setPageViewer] = useState<any>("30");
+  const [data, setData] = useState<any>(pagePerUserData);
   useEffect(() => {
     let newData;
     if (pageViewer === "7") {

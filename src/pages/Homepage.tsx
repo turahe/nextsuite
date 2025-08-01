@@ -27,11 +27,16 @@ import {
   DefaultVisitorChart,
 } from "../components/partials/charts/default/DefaultCharts";
 
-const Homepage = () => {
-  const [sm, updateSm] = useState(false);
+const Homepage: React.FC = () => {
+  const [sm, updateSm] = useState<boolean>(false);
+
+  const handleDropdownClick = (ev: React.MouseEvent<HTMLAnchorElement>) => {
+    ev.preventDefault();
+  };
+
   return (
     <React.Fragment>
-      <Head title="Homepage"></Head>
+      <Head title="Homepage" />
       <Content>
         <BlockHead size="sm">
           <BlockBetween>
@@ -39,7 +44,9 @@ const Homepage = () => {
               <BlockTitle page tag="h3">
                 Dashboard
               </BlockTitle>
-              <BlockDes className="text-soft"><p>Welcome to nextsuite Dashboard Template.</p></BlockDes>
+              <BlockDes className="text-soft">
+                <p>Welcome to nextsuite Dashboard Template.</p>
+              </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
               <div className="toggle-wrap nk-block-tools-toggle">
@@ -65,9 +72,7 @@ const Homepage = () => {
                             <li>
                               <DropdownItem
                                 tag="a"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                                 href="#!"
                               >
                                 <span>Last 30 days</span>
@@ -76,9 +81,7 @@ const Homepage = () => {
                             <li>
                               <DropdownItem
                                 tag="a"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                                 href="#dropdownitem"
                               >
                                 <span>Last 6 months</span>
@@ -87,9 +90,7 @@ const Homepage = () => {
                             <li>
                               <DropdownItem
                                 tag="a"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                                 href="#dropdownitem"
                               >
                                 <span>Last 3 weeks</span>
@@ -111,57 +112,58 @@ const Homepage = () => {
             </BlockHeadContent>
           </BlockBetween>
         </BlockHead>
+
         <Block>
           <Row className="g-gs">
             <Col xxl="3" sm="6">
               <DataCard
-                title="Today's Order"
-                percentChange={"4.63"}
+                title="Total Orders"
+                percentChange="1.8"
                 up={true}
                 chart={<DefaultOrderChart />}
-                amount={"1975"}
+                amount="9,641"
               />
             </Col>
             <Col xxl="3" sm="6">
               <DataCard
-                title="Today's Revenue"
-                percentChange={"2.63"}
-                up={false}
-                chart={<DefaultRevenueChart />}
-                amount={"$2293"}
-              />
-            </Col>
-            <Col xxl="3" sm="6">
-              <DataCard
-                title="Today's Customers"
-                percentChange={"4.63"}
+                title="Total Revenue"
+                percentChange="4.6"
                 up={true}
-                chart={<DefaultCustomerChart />}
-                amount={"847"}
+                chart={<DefaultRevenueChart />}
+                amount="$37,415"
               />
             </Col>
             <Col xxl="3" sm="6">
               <DataCard
-                title="Today's Visitors"
-                percentChange={"2.63"}
+                title="Total Customers"
+                percentChange="1.2"
                 up={false}
-                chart={<DefaultVisitorChart />}
-                amount={"23,485"}
+                chart={<DefaultCustomerChart />}
+                amount="8,471"
               />
             </Col>
-            <Col xxl="6">
+            <Col xxl="3" sm="6">
+              <DataCard
+                title="Total Visitors"
+                percentChange="4.8"
+                up={true}
+                chart={<DefaultVisitorChart />}
+                amount="9,595"
+              />
+            </Col>
+            <Col xxl="8">
               <SalesStatistics />
             </Col>
-            <Col xxl="3" md="6">
+            <Col xxl="4" md="6">
               <OrderStatistics />
             </Col>
-            <Col xxl="3" md="6">
+            <Col xxl="4" md="6">
               <StoreStatistics />
             </Col>
             <Col xxl="8">
               <RecentOrders />
             </Col>
-            <Col xxl="4" md="8" lg="6">
+            <Col xxl="4">
               <TopProducts />
             </Col>
           </Row>
@@ -170,4 +172,5 @@ const Homepage = () => {
     </React.Fragment>
   );
 };
+
 export default Homepage;

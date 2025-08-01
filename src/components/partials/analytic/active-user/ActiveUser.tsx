@@ -2,7 +2,7 @@ import React from "react";
 import { Icon, TooltipComponent } from "../../../Component";
 import { ActiveUserBarChart } from "../../charts/analytic/DefaultCharts";
 
-const ActiveUser = () => {
+const ActiveUser: React.FC = () => {
   return (
     <React.Fragment>
       <div className="card-title-group align-start pb-3 g-2">

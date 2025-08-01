@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Map } from "../../charts/analytic/DefaultCharts";
 import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
 
-const UserMap = () => {
-  const [mapState, setMapState] = useState("30");
+const UserMap: React.FC = () => {
+  const [mapState, setMapState] = useState<any>("30");
   return (
     <React.Fragment>
       <div className="card-title-group">

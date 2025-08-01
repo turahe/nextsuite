@@ -5,9 +5,9 @@ import { DataTableRow, DataTableHead, DataTableItem } from "../../../table/DataT
 import Progress from "../../../progress/Progress";
 import Icon from "../../../icon/Icon";
 
-const BrowserUser = () => {
-  const [browser, setBrowser] = useState("30");
-  const [data, setData] = useState(browserUserData);
+const BrowserUser: React.FC = () => {
+  const [browser, setBrowser] = useState<any>("30");
+  const [data, setData] = useState<any>(browserUserData);
   useEffect(() => {
     let newData;
     if (browser === "7") {

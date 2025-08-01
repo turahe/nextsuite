@@ -9,9 +9,9 @@ import { DropdownToggle, DropdownMenu, UncontrolledDropdown, DropdownItem } from
 import { Icon, DataTableHead, DataTableRow, DataTableItem } from "../../../Component";
 import { WPCharts } from "../../charts/analytic/DefaultCharts";
 
-const TrafficChannel = () => {
-  const [dd, setdd] = useState("30");
-  const [trafficData, setTrafficData] = useState(trafficChannelData);
+const TrafficChannel: React.FC = () => {
+  const [dd, setdd] = useState<any>("30");
+  const [trafficData, setTrafficData] = useState<any>(trafficChannelData);
 
   useEffect(() => {
     if (dd === "30") {

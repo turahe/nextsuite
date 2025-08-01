@@ -40,11 +40,11 @@ const buttonIcon = {
   moveBottom: <span className="fa fa-double-angle-down" />,
 };
 
-const ReactDualList = ({ options, icon, canFilter, preSelected }) => {
-  const [data, setData] = useState(options);
-  const [filterText, setFilterText] = useState("");
-  const [selected, setSelected] = useState(preSelected ? preSelected : []);
-  const onListChange = (selected) => {
+const ReactDualList: React.FC = ({ options, icon, canFilter, preSelected }) => {
+  const [data, setData] = useState<any>(options);
+  const [filterText, setFilterText] = useState<string>("");
+  const [selected, setSelected] = useState<any[]>(preSelected ? preSelected : []);
+  const onListChange: React.FC = (selected) => {
     setSelected(selected);
   };
 

@@ -3,7 +3,7 @@ import { TimeOnSiteData, NewUsersData, PageviewsData, BounceRateData } from "../
 import { WPCharts } from "../../charts/analytic/DefaultCharts";
 import { Icon, TooltipComponent } from "../../../Component";
 
-const WebsitePerformance = () => {
+const WebsitePerformance: React.FC = () => {
   return (
     <React.Fragment>
       <div className="card-title-group align-start pb-3 g-2">

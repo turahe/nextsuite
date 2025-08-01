@@ -4,7 +4,7 @@ import { Line, Bar, Pie, PolarArea, Doughnut } from "react-chartjs-2";
 import { Chart, CategoryScale, LinearScale, BarElement, PointElement, LineElement, RadialLinearScale, Tooltip, Filler, Legend, } from "chart.js";
 Chart.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, RadialLinearScale, Tooltip, Filler, Legend,);
 
-export const LineChartExample = ({ data, legend }) => {
+export const LineChartExample: React.FC = ({ data, legend }) => {
   return (
     <Line
       className="line-chart"
@@ -76,7 +76,7 @@ export const LineChartExample = ({ data, legend }) => {
   );
 };
 
-export const BarChartExample = ({ data, stacked }) => {
+export const BarChartExample: React.FC = ({ data, stacked }) => {
   return (
     <Bar
       data={data}
@@ -143,7 +143,7 @@ export const BarChartExample = ({ data, stacked }) => {
   );
 };
 
-export const PieChartExample = ({ data }) => {
+export const PieChartExample: React.FC = ({ data }) => {
   return (
     <Pie
       data={data}
@@ -177,7 +177,7 @@ export const PieChartExample = ({ data }) => {
   );
 };
 
-export const DoughnutExample = ({ data }) => {
+export const DoughnutExample: React.FC = ({ data }) => {
   return (
     <Doughnut
       data={data}
@@ -212,7 +212,7 @@ export const DoughnutExample = ({ data }) => {
   );
 };
 
-export const PolarExample = ({ data }) => {
+export const PolarExample: React.FC = ({ data }) => {
   return (
     <PolarArea
       data={data}

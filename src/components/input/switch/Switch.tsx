@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const InputSwitch = ({ label, id, checked }) => {
-  const [inputCheck, setCheck] = useState(checked ? true : false);
+const InputSwitch: React.FC = ({ label, id, checked }) => {
+  const [inputCheck, setCheck] = useState<any>(checked ? true : false);
 
   return (
     <React.Fragment>

@@ -21,8 +21,13 @@ import {
   PreviewAltCard,
 } from "../components/Component";
 
-const CryptoHomePage = () => {
-  const [sm, updateSm] = useState(false);
+const CryptoHomePage: React.FC = () => {
+  const [sm, updateSm] = useState<boolean>(false);
+
+  const handleDropdownClick = (ev: React.MouseEvent<HTMLAnchorElement>) => {
+    ev.preventDefault();
+  };
+
   return (
     <React.Fragment>
       <Head title="Crypto Dashboard" />
@@ -47,20 +52,20 @@ const CryptoHomePage = () => {
                   <ul className="nk-block-tools g-3">
                     <li>
                       <Button color="primary" outline className="btn-dim btn-white">
-                        <Icon name="download-cloud"></Icon>
+                        <Icon name="download-cloud" />
                         <span>Export</span>
                       </Button>
                     </li>
                     <li>
                       <Button color="primary" outline className="btn-dim btn-white">
-                        <Icon name="reports"></Icon>
+                        <Icon name="reports" />
                         <span>Reports</span>
                       </Button>
                     </li>
                     <li className="nk-block-tools-opt">
                       <UncontrolledDropdown>
                         <DropdownToggle color="transparent" className="btn btn-primary btn-icon dropdown-toggle">
-                          <Icon name="plus"></Icon>
+                          <Icon name="plus" />
                         </DropdownToggle>
                         <DropdownMenu end>
                           <ul className="link-list-opt no-bdr">
@@ -68,11 +73,9 @@ const CryptoHomePage = () => {
                               <DropdownItem
                                 tag="a"
                                 href="#dropdownitem"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                               >
-                                <Icon name="user-add-fill"></Icon>
+                                <Icon name="user-add-fill" />
                                 <span>Add User</span>
                               </DropdownItem>
                             </li>
@@ -80,11 +83,9 @@ const CryptoHomePage = () => {
                               <DropdownItem
                                 tag="a"
                                 href="#dropdownitem"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                               >
-                                <Icon name="coin-alt-fill"></Icon>
+                                <Icon name="coin-alt-fill" />
                                 <span>Add Order</span>
                               </DropdownItem>
                             </li>
@@ -92,11 +93,9 @@ const CryptoHomePage = () => {
                               <DropdownItem
                                 tag="a"
                                 href="#dropdownitem"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                               >
-                                <Icon name="note-add-fill-c"></Icon>
+                                <Icon name="note-add-fill-c" />
                                 <span>Add Page</span>
                               </DropdownItem>
                             </li>

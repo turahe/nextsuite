@@ -1,6 +1,6 @@
 import React from "react";
 
-export const EmailWrapper = ({ ...props }) => {
+export const EmailWrapper: React.FC = ({ ...props }) => {
   return (
     <table className="email-wraper">
       <tbody>
@@ -12,7 +12,7 @@ export const EmailWrapper = ({ ...props }) => {
   );
 };
 
-export const EmailHeader = ({ ...props }) => {
+export const EmailHeader: React.FC = ({ ...props }) => {
   return (
     <table className="email-header">
       <tbody>
@@ -24,7 +24,7 @@ export const EmailHeader = ({ ...props }) => {
   );
 };
 
-export const EmailBody = ({ centered, ...props }) => {
+export const EmailBody: React.FC = ({ centered, ...props }) => {
   return (
     <table className={`email-body ${centered ? "text-center" : ""}`}>
       <tbody>{props.children}</tbody>
@@ -32,7 +32,7 @@ export const EmailBody = ({ centered, ...props }) => {
   );
 };
 
-export const EmailBodyContent = ({ className, ...props }) => {
+export const EmailBodyContent: React.FC = ({ className, ...props }) => {
   return (
     <tr>
       <td className={`${className ? className : ""}`}>{props.children}</td>
@@ -40,7 +40,7 @@ export const EmailBodyContent = ({ className, ...props }) => {
   );
 };
 
-export const EmailFooter = ({ ...props }) => {
+export const EmailFooter: React.FC = ({ ...props }) => {
   return (
     <table className="email-footer">
       <tbody>

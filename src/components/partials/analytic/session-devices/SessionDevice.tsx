@@ -3,8 +3,8 @@ import { SessionDoughnut } from "../../charts/analytic/DefaultCharts";
 import { DropdownToggle, DropdownMenu, UncontrolledDropdown, DropdownItem } from "reactstrap";
 import { Icon } from "../../../Component";
 
-const SessionDevice = () => {
-  const [sessionDevice, setSessionDevices] = useState("30");
+const SessionDevice: React.FC = () => {
+  const [sessionDevice, setSessionDevices] = useState<any>("30");
   return (
     <React.Fragment>
       <div className="card-title-group">

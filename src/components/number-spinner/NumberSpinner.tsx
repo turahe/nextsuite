@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Icon, Button } from "../Component";
 
-const NSComponent = ({ max, min, step, outline, color, defaultVal }) => {
-  const [value, setValue] = useState(defaultVal);
-  const addVal = (n) => {
+const NSComponent: React.FC = ({ max, min, step, outline, color, defaultVal }) => {
+  const [value, setValue] = useState<any>(defaultVal);
+  const addVal: React.FC = (n) => {
     if (value !== max) {
       if (step) {
         n = step;
@@ -11,7 +11,7 @@ const NSComponent = ({ max, min, step, outline, color, defaultVal }) => {
       setValue(value + n);
     }
   };
-  const reduceVal = (n) => {
+  const reduceVal: React.FC = (n) => {
     if (value > 0 && value !== min) {
       if (step) {
         n = step;

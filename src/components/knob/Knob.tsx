@@ -4,7 +4,7 @@ import { Doughnut } from "react-chartjs-2";
 import { Chart, CategoryScale, LinearScale, Legend, Tooltip } from "chart.js";
 Chart.register(CategoryScale, LinearScale, Legend, Tooltip);
 
-const Knob = ({ data, type, centerText }) => {
+const Knob: React.FC = ({ data, type, centerText }) => {
   return (
     <div className="nk-knob position-relative">
       <Doughnut

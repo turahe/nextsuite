@@ -26,11 +26,16 @@ import {
   BlockBetween,
 } from "../components/Component";
 
-const Sales = () => {
-  const [sm, updateSm] = useState(false);
+const Sales: React.FC = () => {
+  const [sm, updateSm] = useState<boolean>(false);
+  
+  const handleDropdownClick = (ev: React.MouseEvent<HTMLAnchorElement>) => {
+    ev.preventDefault();
+  };
+
   return (
     <React.Fragment>
-      <Head title="Sales Dashboard"></Head>
+      <Head title="Sales Dashboard" />
       <Content>
         <BlockHead size="sm">
           <BlockBetween>
@@ -66,9 +71,7 @@ const Sales = () => {
                             <li>
                               <DropdownItem
                                 tag="a"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                                 href="#!"
                               >
                                 <span>Last 30 days</span>
@@ -77,9 +80,7 @@ const Sales = () => {
                             <li>
                               <DropdownItem
                                 tag="a"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                                 href="#dropdownitem"
                               >
                                 <span>Last 6 months</span>
@@ -88,9 +89,7 @@ const Sales = () => {
                             <li>
                               <DropdownItem
                                 tag="a"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
+                                onClick={handleDropdownClick}
                                 href="#dropdownitem"
                               >
                                 <span>Last 3 weeks</span>
@@ -173,4 +172,5 @@ const Sales = () => {
     </React.Fragment>
   );
 };
+
 export default Sales;

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { DropdownToggle, DropdownMenu, UncontrolledDropdown, DropdownItem } from "reactstrap";
 import { TCDoughnut } from "../../charts/analytic/DefaultCharts";
 
-const TrafficDougnut = () => {
-  const [traffic, setTraffic] = useState("30");
+const TrafficDougnut: React.FC = () => {
+  const [traffic, setTraffic] = useState<any>("30");
   return (
     <React.Fragment>
       {" "}
