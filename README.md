@@ -7,10 +7,32 @@ A modern, feature-rich dashboard application built with **React 19**, **TypeScri
 - **React 19** - Latest React with concurrent features and performance improvements
 - **TypeScript** - Full type safety and modern development experience  
 - **Vite** - Lightning-fast build tool with HMR
+- **PWA Ready** - Progressive Web App with offline support and installability
 - **Docker Ready** - Complete containerization for development and production
 - **Modern UI** - Beautiful, responsive dashboard components
 - **SCSS Support** - Advanced styling capabilities
 - **Performance Optimized** - Optimized builds and caching strategies
+
+## 📱 Progressive Web App (PWA)
+
+**NextSuite is now a fully functional PWA!**
+
+### PWA Features:
+- 📱 **Installable** on desktop and mobile devices
+- 📶 **Offline support** with service worker caching
+- 🔄 **Auto-updates** with user notifications
+- ⚡ **Fast loading** with intelligent caching
+- 🔔 **Update prompts** for new versions
+
+**Quick PWA Test:**
+```bash
+npm run dev
+# Visit http://localhost:3000
+# Look for install icon in browser address bar
+# Test offline functionality in DevTools
+```
+
+📖 **Detailed PWA documentation**: [PWA-README.md](./PWA-README.md)
 
 ## 🚀 Quick Start
 

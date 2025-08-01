@@ -65,7 +65,9 @@
     "sass": "^1.89.2",
     "typescript": "^5.7.2",
     "vite": "^7.0.6",
-    "web-vitals": "^4.2.4"
+    "vite-plugin-pwa": "^1.0.2",
+    "web-vitals": "^4.2.4",
+    "workbox-window": "^7.3.0"
   },
   "scripts": {
     "dev": "vite",
@@ -80,7 +82,10 @@
     "docker:compose-prod": "docker-compose up nextsuite-prod",
     "docker:compose-build": "docker-compose build",
     "docker:compose-down": "docker-compose down",
-    "docker:clean": "docker system prune -f && docker volume prune -f"
+    "docker:clean": "docker system prune -f && docker volume prune -f",
+    "pwa:dev": "npm run dev",
+    "pwa:build": "npm run build",
+    "pwa:preview": "npm run preview"
   },
   "browserslist": {
     "production": [
