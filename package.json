@@ -71,7 +71,16 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "docker:build": "docker build -t nextsuite .",
+    "docker:build-dev": "docker build -f Dockerfile.dev -t nextsuite:dev .",
+    "docker:run": "docker run -p 80:80 nextsuite",
+    "docker:run-dev": "docker run -p 3000:3000 -v $(pwd):/app -v /app/node_modules nextsuite:dev",
+    "docker:compose-dev": "docker-compose up nextsuite-dev",
+    "docker:compose-prod": "docker-compose up nextsuite-prod",
+    "docker:compose-build": "docker-compose build",
+    "docker:compose-down": "docker-compose down",
+    "docker:clean": "docker system prune -f && docker volume prune -f"
   },
   "browserslist": {
     "production": [
